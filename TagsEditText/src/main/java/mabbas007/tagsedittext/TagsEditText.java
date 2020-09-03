@@ -316,9 +316,9 @@ public class TagsEditText extends AutoCompleteTextView {
             getText().append(tag.getSource()).append(mSeparator);
         }
         mLastString = getText().toString();
-        if (!TextUtils.isEmpty(mLastString)) {
-            getText().append(NEW_LINE);
-        }
+//        if (!TextUtils.isEmpty(mLastString)) {
+//            getText().append(NEW_LINE);
+//        }
         mIsAfterTextWatcherEnabled = true;
     }
 
